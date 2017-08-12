@@ -1,0 +1,4 @@
+# database files
+*.sqlite3
+# static files
+/static/*
