@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+{% load myblog_tags %}
+{% block main %}
+    {% for post in post_list %}
+    <article class="post post-{{ post.pk }}">
+    <h1 class="entry-title">
+    <a href={{ post.get_absolute_url }}>{{ post.title }}</a>
+    </h1>
+    <div class="entry-meta">
+        <span class="post-category"><a href="{% url 'myblog:category' category.pk %}">{{ post.category.name }}</a></span>
+        <span class="post-date"><a href="{% url 'myblog:archives' date.year date.month  %}"><time class="entry-date"
+                                            datetime="{{ post.created_time }}">{{ post.created_time }}</time></a></span>
+        <span class="post-author"><a href="#">{{ post.author }}</a></span>
+        <span class="comments-link"><a href="{% url 'comments:post_comment' post.pk %}">{{ post.comment_set.count }} 评论</a></span>
+        <span class="views-count"><a href="#">588 阅读</a></span>
+    </div>
+    <div class="entry-content clearfix">
+      <p>{{ post.excerpt }}</p>
+      <div class="read-more cl-effect-14">
+        <a href={{ post.get_absolute_url }} class="more-link">继续阅读 <span class="meta-nav">→</span></a>
+      </div>
+    </div>
+    </article>
+    {% empty %}
+        <div class="no-post">暂时还没有发布的文章！</div>
+    {% endfor %}
+    <!-- 简单分页效果
+    <div class="pagination-simple">
+        <a href="#">上一页</a>
+        <span class="current">第 6 页 / 共 11 页</span>
+        <a href="#">下一页</a>
+    </div>
+    -->
+{% endblock main %}
+{% block toc %}
+<div class="widget widget-recent-posts">
+        <h3 class="widget-title">最新文章</h3>
+        {% get_recent_posts as recent_post_list %}
+        <ul>
+            {% for post in recent_post_list %}
+            <li>
+                <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+            </li>
+            {% empty %}
+                暂无文章！
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="widget widget-archives">
+        <h3 class="widget-title">归档</h3>
+        {% archives as date_list %}
+        <ul>
+            {% for date in date_list %}
+            <li>
+                <a href="{% url 'myblog:archives' date.year date.month %}">{{ date.year }}年{{ date.month }}月</a>
+            </li>
+            {% empty %}
+                暂无归档！
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="widget widget-category">
+        <h3 class="widget-title">分类</h3>
+        {% get_categories as category_list %}
+        <ul>
+            {% for category in category_list %}
+            <li>
+                <a href="{% url 'myblog:category' category.pk %}">{{ category.name }} ({{ category.num_posts }})</a>
+            </li>
+            {% empty %}
+            暂无分类！
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="widget widget-tag-cloud">
+        <h3 class="widget-title">标签云</h3>
+        <ul>
+            <li>
+                <a href="#">Django</a>
+            </li>
+            <li>
+                <a href="#">Python</a>
+            </li>
+            <li>
+                <a href="#">Java</a>
+            </li>
+            <li>
+                <a href="#">笔记</a>
+            </li>
+            <li>
+                <a href="#">文档</a>
+            </li>
+            <li>
+                <a href="#">AngularJS</a>
+            </li>
+            <li>
+                <a href="#">CSS</a>
+            </li>
+            <li>
+                <a href="#">JavaScript</a>
+            </li>
+            <li>
+                <a href="#">Snippet</a>
+            </li>
+            <li>
+                <a href="#">jQuery</a>
+            </li>
+        </ul>
+    </div>
+    <div class="rss">
+        <a href=""><span class="ion-social-rss-outline"></span> RSS 订阅</a>
+    </div>
+{% endblock toc %}
+
