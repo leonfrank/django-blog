@@ -2,71 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47c7a08-7a1d-4467-ba2d-02e255e39bc3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/comments/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/comments/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/comments/apps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/comments/forms.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/comments/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/comments/migrations/0002_remove_comment_url.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/comments/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/comments/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/comments/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/comments/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/comments/views.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/blog.iml" afterPath="$PROJECT_DIR$/.idea/blog.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/settings.py" afterPath="$PROJECT_DIR$/blog/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/urls.py" afterPath="$PROJECT_DIR$/blog/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/wsgi.py" afterPath="$PROJECT_DIR$/blog/wsgi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/admin.py" afterPath="$PROJECT_DIR$/myblog/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/apps.py" afterPath="$PROJECT_DIR$/myblog/apps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/myblog/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/migrations/0002_auto_20170716_1643.py" afterPath="$PROJECT_DIR$/myblog/migrations/0002_auto_20170716_1643.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/models.py" afterPath="$PROJECT_DIR$/myblog/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/custom.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/autumn.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/autumn.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/borland.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/borland.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/bw.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/bw.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/colorful.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/colorful.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/default.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/emacs.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/emacs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/friendly.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/friendly.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/fruity.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/fruity.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/github.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/github.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/manni.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/manni.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/monokai.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/monokai.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/murphy.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/murphy.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/native.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/native.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/pastie.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/pastie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/perldoc.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/perldoc.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/tango.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/tango.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/trac.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/trac.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/vim.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/vim.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/vs.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/vs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/zenburn.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/highlights/zenburn.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/css/pace.css" afterPath="$PROJECT_DIR$/myblog/static/myblog/css/pace.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/myblog/static/myblog/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/js/jquery-2.1.3.min.js" afterPath="$PROJECT_DIR$/myblog/static/myblog/js/jquery-2.1.3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/js/modernizr.custom.js" afterPath="$PROJECT_DIR$/myblog/static/myblog/js/modernizr.custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/js/pace.min.js" afterPath="$PROJECT_DIR$/myblog/static/myblog/js/pace.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/static/myblog/js/script.js" afterPath="$PROJECT_DIR$/myblog/static/myblog/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/templatetags/myblog_tags.py" afterPath="$PROJECT_DIR$/myblog/templatetags/myblog_tags.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/tests.py" afterPath="$PROJECT_DIR$/myblog/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/urls.py" afterPath="$PROJECT_DIR$/myblog/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myblog/views.py" afterPath="$PROJECT_DIR$/myblog/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/myblog/404.html" afterPath="$PROJECT_DIR$/templates/myblog/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/myblog/detail.html" afterPath="$PROJECT_DIR$/templates/myblog/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/myblog/error.html" afterPath="$PROJECT_DIR$/templates/myblog/error.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/myblog/index.html" afterPath="$PROJECT_DIR$/templates/myblog/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/myblog/results.html" afterPath="$PROJECT_DIR$/templates/myblog/results.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -127,8 +63,8 @@
       <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/myblog/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="345">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -250,8 +186,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1015" />
-    <option name="y" value="223" />
+    <option name="x" value="1663" />
+    <option name="y" value="181" />
     <option name="width" value="1855" />
     <option name="height" value="1028" />
   </component>
@@ -621,7 +557,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1015" y="223" width="1855" height="1028" extended-state="0" />
+    <frame x="1663" y="181" width="1855" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21393035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -631,7 +567,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44301075" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44301075" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -849,8 +785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/myblog/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="345">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding />
         </state>
       </provider>
