@@ -25,13 +25,7 @@ SECRET_KEY = 'sl9_1^pn6uonc6%m74%ixv_)61x%v8t5*m7s!_udnfgi90ti_j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-<<<<<<< HEAD
-ALLOWED_HOSTS = ['127.0.0.1','localhost']
-=======
 ALLOWED_HOSTS = ['127.0.0.1','localhost','.dreamalbum.net']
->>>>>>> master
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -42,11 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myblog',
-<<<<<<< HEAD
     #'gunicorn',
-=======
-    'comments',
->>>>>>> master
 ]
 
 MIDDLEWARE = [
@@ -131,12 +121,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS= (
-<<<<<<< HEAD
-    os.path.join(BASE_DIR, 'static'),
-)
-=======
+
     os.path.join(BASE_DIR,'static'),
 )
 
-STATIC_ROOT = os.path.join(BASE_DIR,'myblog/static')
->>>>>>> master
+
+

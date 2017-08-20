@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 # no database files
 *.sqlite3
-=======
-# database files
-*.sqlite3
 
-
->>>>>>> master

@@ -5,7 +5,7 @@
         <header class="entry-header">
         <h1 class="entry-title">{{ post.title }}</h1>
         <div class="entry-meta">
-<<<<<<< HEAD
+
             <span class="post-category"><a href="{% url 'myblog:category' post.category.pk %}">{{ post.category.name }}</a></span>
             <span class="post-date"><a href="{% url 'myblog:archives' post.created_time.date.year post.created_time.date.month  %}"><time class="entry-date"
                                                 datetime="{{ post.created_time }}">{{ post.created_time }}</time></a></span>
@@ -23,24 +23,7 @@
             <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
             <!-- UY END -->
         </section>
-=======
-             <span class="post-category"><a href="{% url 'myblog:category' category.pk %}">{{ post.category.name }}</a></span>
-            <span class="post-date"><a href="{% url 'myblog:archives' date.year date.month  %}"><time class="entry-date"
-                                                datetime="{{ post.created_time }}">{{ post.created_time }}</time></a></span>
-            <span class="post-author"><a href="#">{{ post.author }}</a></span>
-            <span class="comments-link"><a href="{% url 'comments:post_comment' post.pk %}">{{ post.comment_set.count }} 评论</a></span>
-            <span class="views-count"><a href="#">469 阅读</a></span>
-        </div>
-        </header>
-        <div class="entry-content clearfix">{{ post.body }}</div>
-    </article>
-                <section class="comment-area" id="comment-area">
-                    <!-- UY BEGIN -->
-                    <div id="uyan_frame"></div>
-                    <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
-                    <!-- UY END -->
-                </section>
->>>>>>> master
+
 {% endblock main %}
 {% block toc %}
     <div class="widget widget-content">

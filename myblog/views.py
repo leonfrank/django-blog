@@ -2,10 +2,6 @@ import markdown
 from django.shortcuts import render,get_object_or_404
 from django.shortcuts import HttpResponse
 from myblog import models
-<<<<<<< HEAD
-=======
-from comments.forms import CommentForm
->>>>>>> master
 from .models import Post,Category
 
 
@@ -20,19 +16,6 @@ def detail(request, pk):
     post.body = markdown.markdown(post.body,extensions=['markdown.extensions.extra',
                                      'markdown.extensions.codehilite',
                                      'markdown.extensions.toc',])
-    # 记得在顶部导入 CommentForm
-<<<<<<< HEAD
-=======
-    form = CommentForm()
-    # 获取这篇 post 下的全部评论
-    comment_list = post.comment_set.all()
-
-    # 将文章、表单、以及文章下的评论列表作为模板变量传给 detail.html 模板，以便渲染相应数据。
-    context = {'post': post,
-               'form': form,
-               'comment_list': comment_list
-               }
->>>>>>> master
     return render(request, 'myblog/detail.html', context={'post': post})
 
 def archives(request, year, month):
