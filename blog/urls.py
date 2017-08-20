@@ -16,9 +16,10 @@ Including another URLconf
 from django.conf.urls import url,include
 from django.contrib import admin
 from myblog import views
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^',include('myblog.urls',namespace='myblog',app_name='myblog')),
-    url(r'^',include('comments.urls',namespace='comments',app_name='comments')),
-]
+] + static(settings.STATIC_URL, document_root = settings.STATIC_ROOT)
