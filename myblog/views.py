@@ -3,7 +3,7 @@ from django.shortcuts import render,get_object_or_404
 from django.shortcuts import HttpResponse
 from myblog import models
 from .models import Post,Category
-
+from django.db.models import Q
 
 # Create your views here.
 
@@ -38,5 +38,6 @@ def search(request):
         error_msg = '请输入关键词'
         return render(request,'myblog/error.html',{'error_msg':error_msg})
 
-    post_list = Post.objects.filter(title__icontains=q)
+    post_list = Post.objects.filter(Q(title__icontains=q)|Q(body__icontains = q))
     return render(request,'myblog/results.html',{'error_msg':error_msg,'post_list':post_list})
+

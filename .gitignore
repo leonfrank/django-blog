@@ -1,3 +1,6 @@
 # no database files
 *.sqlite3
 
+
+.blogenv/*
+.env/*

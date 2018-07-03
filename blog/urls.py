@@ -19,9 +19,11 @@ from myblog import views
 from django.conf import settings
 from django.conf.urls.static import static
 
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^',include('myblog.urls',namespace='myblog',app_name='myblog')),
+    url(r'^comp/',include('comp.urls',namespace='comp',app_name = 'comp')),
 ]
 
 

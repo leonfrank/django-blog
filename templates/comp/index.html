@@ -1,0 +1,41 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body{
+margin-top: 30px;
+margin-right: 10px;
+margin-bottom: 30px;
+margin-left: 10px;
+padding:40px 10px 40px 10px;
+}
+</style>
+    <link rel="stylesheet" type="text/css" href={% static 'comp/css/bootstrap.min.css' %} />
+
+    <meta charset="UTF-8">
+    <title>公司信息汇总</title>
+</head>
+<body>
+        <div class="vertical-center">
+			<div class="col-sm-12">
+				<form role="form" class="form-horizontal" action="/comp/scrapy/search" method="GET">
+					<input class="btn btn-default btn-md" name="submit" type="submit" value="搜索" style="float: right"/>
+					<div class="col-sm-4 form-group" >
+                        <label for="query" class="control-label col-sm-2">公司</label>
+                        <div class="col-sm-6">
+                        <input class="form-control" name="q" type="text" id="query" placeholder="多个公司名，请用空格分隔"/>
+                        </div>
+					</div>
+                    <div class="col-sm-4 form-group" >
+                        <label for="kwd" class="control-label col-sm-2">关键字</label>
+                        <div class="col-sm-6">
+                        <input  class="form-control" name="keywords" type="text" id = "kwd" placeholder="多个关键字，请用空格分隔" />
+                        </div>
+                    </div>
+				</form>
+			</div>
+		</div>
+</body>
+</html>
